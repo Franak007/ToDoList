@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { TaskListComponent } from './task-list/task-list.component';
 import { BitcoinComponent } from './bitcoin/bitcoin.component';
+import { Error404Component } from './error404/error404.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { BitcoinComponent } from './bitcoin/bitcoin.component';
     HomeComponent,
     HeaderComponent,
     TaskListComponent,
-    BitcoinComponent
+    BitcoinComponent,
+    Error404Component
   ],
   imports: [
     BrowserModule,
