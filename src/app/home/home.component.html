@@ -1,1 +1,33 @@
-<h5>Dans le menu, cliquez sur "Tâches pour suivre et mettre à jour les tâches à executer</h5>
+<div class="container text-center">
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-primary my-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Ajouter une tâche
+  </button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h1>Toto</h1>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <app-task-list></app-task-list>
+    </div>
+    <div class="col-md-6">
+      <app-bitcoin></app-bitcoin>
+    </div>
+  </div>
+

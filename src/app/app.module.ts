@@ -8,6 +8,8 @@ import { HeaderComponent } from './header/header.component';
 import { TaskListComponent } from './task-list/task-list.component';
 import { BitcoinComponent } from './bitcoin/bitcoin.component';
 import { Error404Component } from './error404/error404.component';
+import {HttpClientModule} from "@angular/common/http";
+
 
 @NgModule({
   declarations: [
@@ -16,11 +18,12 @@ import { Error404Component } from './error404/error404.component';
     HeaderComponent,
     TaskListComponent,
     BitcoinComponent,
-    Error404Component
+    Error404Component,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
